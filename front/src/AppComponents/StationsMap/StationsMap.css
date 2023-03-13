@@ -1,0 +1,11 @@
+.component-embbeder{
+    width: 59%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}

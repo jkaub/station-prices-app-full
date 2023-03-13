@@ -1,0 +1,59 @@
+.main-components {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left-section {
+  height: 100%;
+  width: 39%;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.horizontal-slider {
+  margin: 0;
+  width: 90%;
+  height: 30px;
+  border: solid 2px;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.example-track {
+  top: 0;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.example-thumb {
+  background: linear-gradient(90deg, #ffffff, #e6e6e6);
+  border-left: solid 2px rgb(52, 52, 52);
+  border-right: solid 2px rgb(52, 52, 52);
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.example-track.example-track-0 {
+  background: linear-gradient(90deg, #ff5622a7, #ff7f4d8a);
+}

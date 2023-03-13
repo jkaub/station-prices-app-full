@@ -1,0 +1,33 @@
+.price-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+.price-table thead th {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  height: 30px;
+  position: sticky;
+  top: 0;
+}
+
+.price-table tbody td {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.station-table-row {
+  background-color: white;
+}
+
+.table-container {
+  height: 70%;
+  width: 90%;
+  overflow: scroll;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
